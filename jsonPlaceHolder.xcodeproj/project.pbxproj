@@ -16,6 +16,8 @@
 		5D5A0C1C28F46BF800B59C39 /* jsonPlaceHolderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5A0C1B28F46BF800B59C39 /* jsonPlaceHolderTests.swift */; };
 		5D5A0C2628F46BF800B59C39 /* jsonPlaceHolderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5A0C2528F46BF800B59C39 /* jsonPlaceHolderUITests.swift */; };
 		5D5A0C2828F46BF800B59C39 /* jsonPlaceHolderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5A0C2728F46BF800B59C39 /* jsonPlaceHolderUITestsLaunchTests.swift */; };
+		5D5A0C3528F46CAB00B59C39 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5A0C3428F46CAB00B59C39 /* TableViewCell.swift */; };
+		5D5A0C3828F46DB000B59C39 /* FetchData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5A0C3728F46DB000B59C39 /* FetchData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		5D5A0C2128F46BF800B59C39 /* jsonPlaceHolderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jsonPlaceHolderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D5A0C2528F46BF800B59C39 /* jsonPlaceHolderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jsonPlaceHolderUITests.swift; sourceTree = "<group>"; };
 		5D5A0C2728F46BF800B59C39 /* jsonPlaceHolderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jsonPlaceHolderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5D5A0C3428F46CAB00B59C39 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		5D5A0C3728F46DB000B59C39 /* FetchData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 		5D5A0C0328F46BF700B59C39 /* jsonPlaceHolder */ = {
 			isa = PBXGroup;
 			children = (
+				5D5A0C3628F46DA000B59C39 /* ViewModel */,
 				5D5A0C0428F46BF700B59C39 /* AppDelegate.swift */,
 				5D5A0C0628F46BF700B59C39 /* SceneDelegate.swift */,
 				5D5A0C0828F46BF700B59C39 /* ViewController.swift */,
@@ -106,6 +111,7 @@
 				5D5A0C0D28F46BF700B59C39 /* Assets.xcassets */,
 				5D5A0C0F28F46BF700B59C39 /* LaunchScreen.storyboard */,
 				5D5A0C1228F46BF700B59C39 /* Info.plist */,
+				5D5A0C3428F46CAB00B59C39 /* TableViewCell.swift */,
 			);
 			path = jsonPlaceHolder;
 			sourceTree = "<group>";
@@ -125,6 +131,14 @@
 				5D5A0C2728F46BF800B59C39 /* jsonPlaceHolderUITestsLaunchTests.swift */,
 			);
 			path = jsonPlaceHolderUITests;
+			sourceTree = "<group>";
+		};
+		5D5A0C3628F46DA000B59C39 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5D5A0C3728F46DB000B59C39 /* FetchData.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +273,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D5A0C0928F46BF700B59C39 /* ViewController.swift in Sources */,
+				5D5A0C3528F46CAB00B59C39 /* TableViewCell.swift in Sources */,
+				5D5A0C3828F46DB000B59C39 /* FetchData.swift in Sources */,
 				5D5A0C0528F46BF700B59C39 /* AppDelegate.swift in Sources */,
 				5D5A0C0728F46BF700B59C39 /* SceneDelegate.swift in Sources */,
 			);
